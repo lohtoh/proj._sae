@@ -1,0 +1,193 @@
+@font-face {
+
+    src : url(../fonts/Windows\ Regular.ttf);
+    font-family: 'Levi Windows';
+
+}
+
+* {
+
+    user-select: none;
+
+}
+
+#b1 {
+
+    font-family: 'Levi Windows';
+    display: flexbox;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../imgs/win95background.png);
+
+}
+
+header {
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-decoration: underline;
+
+}
+
+header > p {
+
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+
+}
+
+main {
+
+    display: flex;
+    height: 30em;
+
+}
+
+main > nav {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    margin: 4em 5em 1em 8em;
+    padding: 0.5em 0em 1.5em 0em;
+
+}
+
+main > nav > .item {
+
+    text-align: center;
+    border: 2px solid transparent;
+
+}
+
+main > nav > .item:hover {
+
+    border: 2px rgb(0, 0, 0) dotted;
+
+}
+
+main > nav > div > img {
+
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+
+}
+
+main > nav > div > p {
+
+    padding: 0;
+    margin: 0;
+    left: 3px;
+    position: relative;
+
+}
+
+main > #text {
+
+    margin-top: 2em;
+    background-image: url(../imgs/notepad.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 45em;
+    height: 30em;
+    margin-right: 4em;
+
+}
+
+main > #text > #Bienvenue {
+
+    margin-top: 5em;
+    margin-left: 3em;
+
+}
+
+main > #text > table {
+
+    font-family: "Levi Windows";
+    margin-top: 4.3em;
+    margin-left: 3em;
+    border-collapse: collapse;
+
+}
+
+main > #text > table th {
+
+    text-align: center;
+
+}
+
+main > #text > table #tableTitle {
+
+    text-align: center;
+
+}
+
+main > #text > table #MiseEnForme {
+
+    width: 150px;
+
+}
+
+main > #text > table span {
+
+    border: 1px solid black;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration:underline;
+
+}
+
+main > #text > table span:hover {
+
+    border: 1px solid black;
+    background-color: rgb(185, 185, 185);
+    cursor: pointer;
+
+}
+
+main > #preuves {
+
+    border: 2px black dashed;
+    display: flex;
+    justify-content: center;
+    width: 23em;
+    height: 15em;
+    align-items: center;
+    margin-top: 8em;;
+
+}
+
+footer {
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    bottom: 0px;
+    position: fixed;
+    font-size: 18px;
+
+}
+
+#b2 {
+
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-image: url(../imgs/win95background.png);
+
+}
+
+#b2 > img {
+
+    height: 100%
+;   width: 70%;
+
+}
