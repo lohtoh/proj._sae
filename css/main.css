@@ -11,13 +11,13 @@
 
 }
 
-#b1 {
+body {
 
     font-family: 'Levi Windows';
     display: flexbox;
     justify-content: center;
     flex-direction: column;
-    background-image: url(../imgs/win95background.png);
+    background-image: url(../imgs/win95background.webp);
 
 }
 
@@ -91,7 +91,7 @@ main > nav > div > p {
 main > #text {
 
     margin-top: 2em;
-    background-image: url(../imgs/notepad.png);
+    background-image: url(../imgs/notepad.webp);
     background-repeat: no-repeat;
     background-size:contain;
     width: 45em;
@@ -163,6 +163,15 @@ main > #preuves {
 
 }
 
+main > #preuves > #preuve {
+
+    position: absolute;
+    width: 20em;
+    height: 15em;
+    cursor: pointer;
+
+}
+
 footer {
 
     display: flex;
@@ -174,20 +183,43 @@ footer {
 
 }
 
-#b2 {
+@media (max-width: 1920px) {
 
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    background-image: url(../imgs/win95background.png);
+    nav .item {
+        margin-bottom: 1.8em;
+    }
 
-}
+    main > #text > table {
+        margin-right: 10em;
+    }
 
-#b2 > img {
+    main > #text {
 
-    height: 100%
-;   width: 70%;
+        margin-right: 2em;
+        width: 45em;
+        height: 30em;
 
+    }
+
+    #text p {
+        margin-left: 2.5em;
+    }
+
+    main > #preuves {
+
+        width: 20em;
+        height: 15em;
+        margin-top: 8em;;
+    
+    }
+
+    main > nav {
+
+        margin: 4em 4em 1em 6em;
+    
+    }
+
+    footer p {
+        font-size: 1em;
+    }
 }

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="fr-FR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio :: Projet Sae</title>
+        <link rel="stylesheet" href="./css/main.css">
+        <script src="./js/script.js"></script>
+        <link rel="icon" href="./favicon.ico">
+        <link rel="icon" href="./icons/favicon-32x32.png" type="image/png" sizes="32x32">
+        <link rel="icon" href="./icons/favicon-16x16.png" type="image/png" sizes="16x16">
+    </head>
+
+    <body>
+
+        <header>
+            <p>Portfolio</p>
+        </header>
+
+        <main>
+
+            <nav>
+                <audio id="click">
+                    <source src="./audio/CLICK.mp3" type="audio/mp3">
+                    <source src="./audio/CLICK.ogg" type="audio/ogg">
+                </audio>
+                <audio id="dblClick">
+                    <source src="./audio/dblCLICK.mp3" type="audio/mp3">
+                    <source src="./audio/dblCLICK.ogg" type="audio/ogg">
+                </audio>
+
+                <div class="item">
+                    <img src="./imgs/note.webp" ondblclick="UE(1)">
+                    <p>U.E. 1</p>
+                </div>
+                <div class="item">
+                    <img src="./imgs/note.webp" ondblclick="UE(2)">
+                    <p>U.E. 2</p>
+                </div>
+                <div class="item">
+                    <img src="./imgs/note.webp" ondblclick="UE(3)">
+                    <p>U.E. 3</p>
+                </div>
+            </nav>
+
+            <div id="text">
+                <p id="Bienvenue">Bienvenue sur mon portfolio !<br><br>Pour naviguer entre les différentes UE, il faut double-cliquer sur les fichiers à gauche.<br>Une fois ouverts, tu pourras accéder à diverses informations et obtenir les preuves en cliquant sur<br> le bouton de l'onglet "Preuves".<br><br>Bonne navigation !</p>
+            </div>
+
+            <div id="preuves">
+                <p>Preuve</p>
+                <img id="preuve">
+            </div>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2024 | theo jacquel - b.u.t. sd</p>
+        </footer>
+
+    </body>
+
+</html>
