@@ -180,6 +180,23 @@ footer {
     bottom: 0px;
     position: fixed;
     font-size: 18px;
+    align-items: center;
+
+}
+
+footer > a {
+
+    width: 30px;
+    height: 30px;
+
+}
+
+footer > a > img {
+
+    width: 30px;
+    height: 30px;
+    margin-left: 1.5em;
+    cursor: pointer;
 
 }
 

@@ -36,21 +36,18 @@ function loadImg(n) {
 
       case 1:
         SonDeClick(1);
-        document.getElementById("preuve").src = "../imgs/ue" + n + ".webp";
+        document.getElementById("preuve").src = "./imgs/ue" + n + ".webp";
         break;
 
       case 2:
         SonDeClick(1);
-        document.getElementById("preuve").src = "../imgs/ue" + n + ".webp";
+        document.getElementById("preuve").src = "./imgs/ue" + n + ".webp";
         break;
 
       case 3:
         SonDeClick(1);
-        document.getElementById("preuve").src = "../imgs/ue" + n + ".webp";
+        document.getElementById("preuve").src = "./imgs/ue" + n + ".webp";
         break;
-
-      default:
-        document.getElementById("preuve").src = "";
 
     }
 
@@ -80,6 +77,24 @@ function UE(n) {
             document.getElementById("text").innerHTML = templates[0];
 
     }
+}
+
+function showImg(){
+
+  SonDeClick(1);
+
+  var source;
+  var img;
+
+  source = document.getElementById("preuve").src;
+  img = new Image();
+  img.src = source;
+
+  if (source != "") {
+
+    window.open(source, "_blank", `width=${img.width}, height=${img.height}`);
+
+  }
 }
 
 const templates = [
