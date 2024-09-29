@@ -30,7 +30,7 @@ header {
 
 }
 
-header > p {
+header > h1 {
 
     display: flex;
     justify-content: center;
@@ -200,7 +200,7 @@ footer > a > img {
 
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 1680px) {
 
     nav .item {
         margin-bottom: 1.8em;

@@ -36,17 +36,17 @@ function loadImg(n) {
 
       case 1:
         SonDeClick(1);
-        document.getElementById("preuve").src = "./imgs/ue" + n + ".webp";
+        document.getElementById("preuve").src = "../imgs/ue" + n + ".webp";
         break;
 
       case 2:
         SonDeClick(1);
-        document.getElementById("preuve").src = "./imgs/ue" + n + ".webp";
+        document.getElementById("preuve").src = "../imgs/ue" + n + ".webp";
         break;
 
       case 3:
         SonDeClick(1);
-        document.getElementById("preuve").src = "./imgs/ue" + n + ".webp";
+        document.getElementById("preuve").src = "../imgs/ue" + n + ".webp";
         break;
 
     }
