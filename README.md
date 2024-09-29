@@ -26,4 +26,4 @@
 
 ## _Lien vers le dépôt github_
 
-![LienGithub](https://github.com/lohtoh/proj._sae)
+![-> Cliquez ici](https://github.com/lohtoh/proj._sae)
